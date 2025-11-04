@@ -20,9 +20,9 @@ This is the core of APIs: they make complex server-level conversations simple fo
 
 ![entered endpoint](Images/paste-url.png)
 
-- In the **Params** tab (below the URL bar), where you can provide optional information to the server (like allergies to your waiter) add a **key-value pair**, (key = label, value = info):    
-   * Key: api_key    
-   * Value: Your unique API Key or DEMO_KEY here.
+- In the **Params** tab (below the URL bar), where you can provide optional information to the server (like allergies to your waiter) add a **key-value pair**, (key = label, value = info):
+    - Key: api_key
+    - Value: Your unique API Key or DEMO_KEY here.
 
 > **Params** = Food allergies/preferences. Additional information added to your **GET Request** that you would like the digital server to know.      
 > **key-value pair** = A way of organizing information. See step **Understanding the Response** for more details. 
