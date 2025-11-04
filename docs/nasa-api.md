@@ -30,7 +30,7 @@ Additionally, if you’re only interested in exploring APIs at the moment and do
 
 > **API Key** = The Restaurant’s hostess. Unique passcode to access an API.    
 > **DEMO_KEY** = A non-personalized key for testing purposes only. Limited calls per hour.
-### Getting Your Endpoint
+### Endpoints
 NASA's API needs a roadmap to the specific portion of its vast data library (kitchen) you want to submit a Get request to. That’s where *endpoints* come in. Endpoints are URLs, or web addresses, that often use Hypertext Transfer Protocol, or **HTTP**, to send requests. Just like the standard way browsers fetch web pages.
 
 Because NASA offers APIs and endpoints for more than just the APOD, you will need to select the correct URL from those listed beneath the key generation form on [https://api.nasa.gov/](https://api.nasa.gov/).  
