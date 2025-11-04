@@ -10,6 +10,10 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,10 +23,12 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install mkdocs mkdocs-material
+      # Optional: fail on bad links/paths during CI
       - run: mkdocs build --strict
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./site
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
