@@ -2,7 +2,7 @@
 hide:
   - toc
 ---
-Of course, errors happen.You might run into the following common issues when testing NASA’s APOD API. Here’s how to address them.
+You might run into the following common issues when testing NASA’s APOD API. Here’s how to address them.
 ### 400 Bad Request (Missing or Invalid API Key)
 This happens if you forget to include the **api_key** Param or mistype your key (including DEMO_KEY). You tried to grab a table, but the hostess turned you away because your reservation wasn’t in the system 
 
