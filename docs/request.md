@@ -6,21 +6,21 @@ Let’s make a GET request and tell NASA’s servers we want today's Astronomy P
 
 This is the core of APIs: they make complex server-level conversations simple for users like us. 
 
-1. Open Postman and click **Add Request** under the My Collection tab. This creates a blank slate where you can build your request from scratch.
+- Open Postman and click **Add Request** under the My Collection tab. This creates a blank slate where you can build your request from scratch.
 
 ![Postman’s New Request link](Images/new-request.png)
 
-2. Set the **method** to **GET**(it's a dropdown menu next to the URL bar). Remember, GET requests fetch data without changing anything on the server. You only *get* info.
+- Set the **method** to **GET**(it's a dropdown menu next to the URL bar). Remember, GET requests fetch data without changing anything on the server. You only *get* info.
 
 	> **Method** = Request type, like **GET** for retrieving or **POST** for sending.
 
 ![The GET button](Images/get.png)
 
-3. Paste your NASA-provided endpoint into the URL bar: https://api.nasa.gov/planetary/apod. This is the specific address for APOD data; without it, Postman wouldn't know where to send your order.
+- Paste your NASA-provided endpoint into the URL bar: https://api.nasa.gov/planetary/apod. This is the specific address for APOD data; without it, Postman wouldn't know where to send your order.
 
 ![entered endpoint](Images/paste-url.png)
 
-4. In the **Params** tab (below the URL bar), where you can provide optional information to the server (like allergies to your waiter) add a **key-value pair**, (key = label, value = info):    
+- In the **Params** tab (below the URL bar), where you can provide optional information to the server (like allergies to your waiter) add a **key-value pair**, (key = label, value = info):    
    * Key: api_key    
    * Value: Your unique API Key or DEMO_KEY here.
 
@@ -29,7 +29,7 @@ This is the core of APIs: they make complex server-level conversations simple fo
 
 ![full page with all info laid out](Images/set-params.png)
 
-5. Click **Send** (the blue button next to the URL bar). Postman handles the communication. Now, we await the NASA server’s response. If all was done correctly, this should take less than a second. 
+- Click **Send** (the blue button next to the URL bar). Postman handles the communication. Now, we await the NASA server’s response. If all was done correctly, this should take less than a second. 
 
  ## Understanding the Response
 
@@ -58,7 +58,6 @@ Image Credit & Copyright: Brian Meyers
 Testing that NASA’s API simply works may seem trivial. But testing APIs — especially those not provided for free by a trusted government agency — makes or breaks app development. 
 
 Imagine launching your galaxy-mapping phone tool. Users race to sign up, intrigued in particular by the ability to request random Astronomy Photos. However, when users hit the app button that says, “Give Me a Photo,” their request remains unfulfilled. They never get the photo!
-
 Without first testing NASA’s API, developers risk this very scenario: launching an app that can’t communicate with distant servers, and, therefore, cannot provide any information, content, or value. Developers rely on testing responses to build apps. 
 
 How else could they ensure every user GET returns a response?   
