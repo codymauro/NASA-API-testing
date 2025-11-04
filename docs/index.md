@@ -20,7 +20,7 @@ This is called a **GET request** — using an API to ask a server for specific i
 
 Here’s a simpler analogy to help you visualize the concept without tech-heavy terms: Imagine you’re eating at a restaurant. The waiter takes your order, which he then brings to the kitchen; the cooks make the food, and, moments later, the waiter brings the meal to your table.
 
-In this scenario, you made a GET request (your order) to the waiter (the API), who brought that request to the kitchen (the **endpoint**, or server) before returning with your meal (the **response**). You don’t need to know where the kitchen is or how the chef prepares your dish. You only need to tell the waiter what you want, and he handles the in-house details. 
+In this scenario, you made a GET request (your order) to the waiter (the API), who brought that request to the kitchen (the **endpoint**, or digital server) before returning with your meal (the **response**). You don’t need to know where the kitchen is or how the chef prepares your dish. You only need to tell the waiter what you want, and he handles the in-house details. 
 
 To review:
 
