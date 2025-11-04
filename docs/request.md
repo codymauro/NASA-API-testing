@@ -24,7 +24,7 @@ This is the core of APIs: they make complex server-level conversations simple fo
     - Key: api_key
     - Value: Your unique API Key or DEMO_KEY here.
 
-> **Params** = Food allergies/preferences. Additional information added to your **GET Request** that you would like the digital server to know.      
+> **Params** = Food allergies/preferences. Additional information added to your **GET Request** that the digital server should know.      
 > **key-value pair** = A way of organizing information. See step **Understanding the Response** for more details. 
 
 ![full page with all info laid out](Images/set-params.png)
