@@ -31,8 +31,7 @@ This is the core of APIs: they make complex server-level conversations simple fo
 
 - Click **Send** (the blue button next to the URL bar). Postman handles the communication. Now, we await the NASA server’s response. If all was done correctly, this should take less than a second. 
 
- ## Understanding the Response
-
+## Understanding the Response
 Hit Send, and Postman's response pane (located beneath Params) displays your NASA data.
 
 ![Postman’s response location](Images/highlight-response.png)
@@ -53,7 +52,7 @@ October 1st, 2025
 Image Credit & Copyright: Brian Meyers
 
 ![October 1st’s APODI](Images/WitchBroom_Meyers_1080.jpg)
-## Making Sense of the Why
+## Why Test APIs?
 
 Testing that NASA’s API simply works may seem trivial. But testing APIs — especially those not provided for free by a trusted government agency — makes or breaks app development. 
 
