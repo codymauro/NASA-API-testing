@@ -11,7 +11,7 @@ Let’s do as the developers do and test to make sure the provided endpoints and
 3. Input an email, a username, and a password.     
 4. Postman offers paid accounts. For the purposes of this tutorial, you do not need one.
 
-Before we can test our NASA API, Postman requires one additional download,
+Before we can test our NASA API, Postman requires one additional download.
 ### Download the Desktop Agent
 Browsers limit local API requests, so Postman requires the **Desktop Agent** to bridge/connect from your browser to the full features of an API. You'll still work in your browser, as the Desktop Agent runs silent in the background.
 
